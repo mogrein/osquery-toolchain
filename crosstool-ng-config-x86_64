@@ -236,14 +236,14 @@ CT_LINUX_PATCH_ORDER="global"
 # CT_LINUX_V_4_17 is not set
 # CT_LINUX_V_4_16 is not set
 # CT_LINUX_V_4_15 is not set
-# CT_LINUX_V_4_14 is not set
+CT_LINUX_V_4_14=y
 # CT_LINUX_V_4_13 is not set
 # CT_LINUX_V_4_12 is not set
 # CT_LINUX_V_4_11 is not set
 # CT_LINUX_V_4_10 is not set
 # CT_LINUX_V_4_9 is not set
 # CT_LINUX_V_4_8 is not set
-CT_LINUX_V_4_7=y
+# CT_LINUX_V_4_7 is not set
 # CT_LINUX_V_4_6 is not set
 # CT_LINUX_V_4_5 is not set
 # CT_LINUX_V_4_4 is not set
@@ -280,7 +280,7 @@ CT_LINUX_V_4_7=y
 # CT_LINUX_V_2_6_33 is not set
 # CT_LINUX_V_2_6_32 is not set
 # CT_LINUX_NO_VERSIONS is not set
-CT_LINUX_VERSION="4.7.10"
+CT_LINUX_VERSION="4.14.222"
 CT_LINUX_MIRRORS="$(CT_Mirrors kernel.org linux ${CT_LINUX_VERSION})"
 CT_LINUX_ARCHIVE_FILENAME="@{pkg_name}-@{version}"
 CT_LINUX_ARCHIVE_DIRNAME="@{pkg_name}-@{version}"
@@ -713,7 +713,7 @@ CT_NCURSES_PATCH_ORDER="global"
 CT_NCURSES_V_6_0=y
 # CT_NCURSES_NO_VERSIONS is not set
 CT_NCURSES_VERSION="6.0"
-CT_NCURSES_MIRRORS="ftp://invisible-island.net/ncurses $(CT_Mirrors GNU ncurses)"
+CT_NCURSES_MIRRORS="ftp://ftp.invisible-island.net/ncurses $(CT_Mirrors GNU ncurses)"
 CT_NCURSES_ARCHIVE_FILENAME="@{pkg_name}-@{version}"
 CT_NCURSES_ARCHIVE_DIRNAME="@{pkg_name}-@{version}"
 CT_NCURSES_ARCHIVE_FORMATS=".tar.gz"
